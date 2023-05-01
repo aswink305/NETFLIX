@@ -1,0 +1,150 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+    height: 41rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #crsl-img2{
+    position:absolute;
+    z-index:-1;
+    display:block;
+top: 0;
+left: 0;
+
+  }
+  
+  
+  #crsl-spcr{
+    height: 10rem;
+  }
+  #crsl-start-shadow{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 60px 40px -7px;}
+  
+  #crsl-movie-names{
+    color: white;
+  }
+  #crsl-trnds1{
+    color: white;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+  }
+  #crsl-trnds{
+    display: flex;
+    color: rgba(255, 255, 255, 0.659);
+    font-size: 1vw;
+    text-align: center;
+
+  } 
+  #crsl-height1{
+    height: 2rem;
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+    
+  }
+  #crsl-movie-names{
+    font-size: 1.5vw;
+  }
+#crsl-selection-btns{
+    background-color: rgb(44, 40, 40);
+    color: white;
+    border: none;
+    font-size: 1.1vw;
+    border-radius: 20px;
+    height: 2rem;
+    width: 140px;
+}
+#crsl-selection-btns:hover{
+background-color: rgba(255, 0, 0, 0.804);
+color: black;
+}
+#crsl-height2{
+    height: 3rem;
+  }
+  #crsl-trnd-names{
+    display: flex;  
+  }
+  #crsl-ovrflw-hei{
+    display: flex;
+    justify-content: center;
+    height: 13rem;
+    object-fit: cover;
+  }
+  #crsl-ovrflw-images{
+border-radius:10px ;
+    height: 90%;
+    width: 90%;
+  }
+  #crsl-ovrflw{
+    display: flex;
+    overflow-x: scroll;
+
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  #name{
+    height: 41rem;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    
+    color: aliceblue;
+  }
+  #crsl-title{
+    font-size: 3vw;
+    font-family: 'Faster One', cursive;
+    color: rgba(255, 0, 0, 0.628);
+        text-shadow: #000000 3px 5px 2px;
+        
+  }
+  #crsl-title-width{
+    width: 500px;
+  }
+  #crsl-height3{
+    height: 1rem;
+  }
+  #crsl-discription{
+    font-size: 1.1vw;
+    font-family: 'Hind Madurai', sans-serif;
+  }
+  #crsl-btns{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(169, 196, 220);
+  }
+  #crsl-btns:hover{
+    background-color: rgba(255, 0, 0, 0.621);
+    width: 6vw;
+  }
+  #crsl-trnds-names:hover{
+    color: rgba(255, 0, 0, 0.621);
+    border-bottom: 1px solid white;
+    height: 1.5rem;
+
+  }
+  #crsl-text-clr{
+    color: rgb(255, 255, 255);
+    font-size: 1.6vw;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  #slider-title{
+    font-size: 1vw;
+    color: white;
+  }

@@ -1,0 +1,15 @@
+#navbar-img{
+    height:2.5rem ;
+
+}
+#navbar-alighn{
+    text-align: end;
+}
+#navbarSupportedContent{
+    display: flex;
+    justify-content: end;
+
+}
+#crsl-height{
+    height: 4rem;
+}
